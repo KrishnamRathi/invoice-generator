@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.m-2{
+    margin: 20px;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+.mr-1{
+    margin-right: 10px;
+}
