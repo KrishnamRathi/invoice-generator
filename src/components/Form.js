@@ -11,7 +11,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 
 function Form() {
 
-    const [items, setItems] = useState([{ name: 'tooth', tax: 10, price: 100, quantity: 3 }]);
+    const [items, setItems] = useState([]);
     const [seller, setSeller] = useState({ name: '', phone: '', address: '' });
     const [buyer, setBuyer] = useState({ name: '', phone: '', address: '' });
     const [item, setItem] = useState({ name: '', price: '', tax: '', quantity: '' });
